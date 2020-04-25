@@ -18,11 +18,15 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Blockchain al alcance de todos
+            Blockchain como servicio
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Aumenta la productividad de tus procesos , agregale mayor credibilidad , reduci la
-            burocracia o simplemente disfruta de los beneficios de la tecnologa sin volverte loco
+            Ayudamos a las empresas a adoptar las ultimas tecnologias para que saquen el maximo
+            maximo provecho de estas
+          </p>
+          <p className="mt-4  text-gray-600 ">
+            Somos un grupo de personas que cree en la implementacion de las ultimas innovaciones
+            como motor del progreso
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg" className="bg-white">
@@ -41,11 +45,11 @@ export default () => (
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">¿Porque utilizar blockchain?</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+            <Card className="mb-8 h-full">
+              <p className="font-semibold text-xl">Es transparente</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -53,8 +57,8 @@ export default () => (
             </Card>
           </div>
           <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+            <Card className="mb-8 h-full">
+              <p className="font-semibold text-xl">Mayor seguridad</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -62,8 +66,17 @@ export default () => (
             </Card>
           </div>
           <div className="flex-1 px-3">
-            <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+            <Card className="mb-8 h-full">
+              <p className="font-semibold text-xl">Aumenta la eficiencia</p>
+              <p className="mt-4">
+                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
+                velna vitae auctor integer.
+              </p>
+            </Card>
+          </div>
+          <div className="flex-1 px-3">
+            <Card className="mb-8 h-full">
+              <p className="font-semibold text-xl">Reduci tus costos</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -73,11 +86,19 @@ export default () => (
         </div>
       </div>
     </section>
+    <br></br>
+    <br></br>
+    <br></br>
+
+    <h2 id="services" className="text-3xl lg:text-5xl font-semibold text-center">
+      Nuestras verticales
+    </h2>
     <SplitSection
-      id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">
+            Administracion y firma de documentos
+          </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             Our team of enthusiastic marketers will analyse and evaluate how your company stacks
             against the closest competitors
@@ -90,9 +111,7 @@ export default () => (
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Tokenización de bienes</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             Once the market analysis process is completed our staff will search for opportunities
             that are in reach
@@ -104,9 +123,7 @@ export default () => (
     <SplitSection
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Soluciones financieras</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
             With all the information in place you will be presented with an action plan that your
             company needs to follow
