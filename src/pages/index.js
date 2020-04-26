@@ -12,15 +12,16 @@ import SvgCharts from '../svg/SvgCharts';
 import CreditCard from '../svg/CreditCard';
 import Realstate from '../svg/Realstate';
 import polhapi from '../svg/polhapi';
+import Background from '../Assets/backgroundFirst.svg';
 export default () => (
   <Layout>
-    <section className="pt-20 md:pt-40">
+    <section className="pt-20 md:pt-40" style={{backgroundImage: `url(${Background})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
-          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
+          <h1 className="text-4xl text-white lg:text-5xl xl:text-6xl font-bold leading-none">
             Blockchain como servicio
           </h1>
-          <p className="text-xl lg:text-2xl mt-6 font-light">
+          <p className="text-xl lg:text-2xl mt-6 font-light text-white">
             Ayudamos a las empresas a adoptar las ultimas tecnologias para que saquen el maximo
             maximo provecho de estas
           </p>
@@ -32,7 +33,7 @@ export default () => (
             <Button size="lg" className="bg-white">
               Visualiza un documento
             </Button>
-            <Button size="lg" className="bg-white">
+            <Button size="lg" className="bg-white mt-4 ml-4">
               Integra Pölh
             </Button>
           </p>
