@@ -15,9 +15,10 @@ import polhapi from '../svg/polhapi';
 import Background from '../Assets/backgroundFirst.svg';
 export default () => (
   <Layout>
-    <section className="pt-20 md:pt-40" style={{backgroundImage: `url(${Background})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
-      <div className="container mx-auto px-8 lg:flex">
-        <div className="text-center lg:text-left lg:w-1/2">
+    <div style={{scrollSnapType:'y mandatory'}}>
+    <section className="pt-20 md:pt-40" style={{backgroundImage: `url(${Background})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', scrollSnapAlign:'start'}}>
+      <div className="container mx-auto px-8 flex flex-col sm:flex-row md:flex-row">
+        <div className="text-center lg:text-left lg:w-1/2 order-last sm:order-first md:order-first">
           <h1 className="text-4xl text-white lg:text-5xl xl:text-6xl font-bold leading-none">
             Blockchain como servicio
           </h1>
@@ -39,12 +40,12 @@ export default () => (
           </p>
           <p className="mt-4 text-gray-600"></p>
         </div>
-        <div className="lg:w-1/2">
+        <div className="order-first sm:order-last lg:w-1/2">
           <HeroImage />
         </div>
       </div>
     </section>
-    <section id="features" className="py-20 lg:pb-40 lg:pt-48">
+    <section style={{scrollSnapAlign:'start'}} id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl lg:text-5xl font-semibold">¿Porque utilizar blockchain?</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
@@ -137,7 +138,7 @@ export default () => (
       }
       secondarySlot={<CreditCard />}
     />
-    <section id="stats" className="py-0 ">
+    <section style={{scrollSnapAlign:'start'}} id="stats" className="py-0 ">
       <div className="container mx-auto">
         <h2 className="text-3xl lg:text-5xl font-semibold text-center">
           Nuestra suite de productos
@@ -165,7 +166,9 @@ export default () => (
                 acceso al mismo y a sus archivos adjuntos. Para hacer una prueba copia el HASH que
                 esta abajo y pegalo en el visualizador.
               </p>
+              <a style={{color:'black'}} href="https://visualizer.polh.io/" target="_blank">
               <Button className="colors.primary.darker mt-6">Ir a al Vizualizer</Button>
+              </a>
             </Card>
           </div>
           <div className="flex-1 px-3">
@@ -185,7 +188,9 @@ export default () => (
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
               </p>
+              <a style={{color:'black'}} href="https://recetas.polh.io/" target="_blank">
               <Button className="colors.primary.darker mt-6">Ver</Button>
+              </a>
             </Card>
           </div>
         </div>
@@ -194,6 +199,7 @@ export default () => (
     <section
       id="testimonials"
       className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center"
+      style={{scrollSnapAlign:'start'}}
     >
       <h3 className="text-5xl font-semibold">¿Que estas esperando?</h3>
 
@@ -201,5 +207,6 @@ export default () => (
         <Button size="xl">Contactanos</Button>
       </p>
     </section>
+    </div>
   </Layout>
 );
