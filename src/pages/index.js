@@ -49,7 +49,8 @@ export default () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full">
-              <p className="font-semibold text-xl">Es transparente</p>
+            <img src={require("../Assets/transparencia.svg")} style={{height: '200px'}}/>
+              <p className="font-semibold text-xl mt-4">Es transparente</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -58,7 +59,8 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full">
-              <p className="font-semibold text-xl">Mayor seguridad</p>
+            <img src={require("../Assets/security.svg")} style={{height: '200px'}}/>
+              <p className="font-semibold text-xl mt-4">Mayor seguridad</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -67,7 +69,8 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full">
-              <p className="font-semibold text-xl">Aumenta la eficiencia</p>
+            <img src={require("../Assets/eficiencia.svg")} style={{height: '200px'}}/>
+              <p className="font-semibold text-xl mt-4">Aumenta la eficiencia</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -76,7 +79,8 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full">
-              <p className="font-semibold text-xl">Reduci tus costos</p>
+            <img src={require("../Assets/accesibilidad.svg")} style={{height: '200px'}}/>
+              <p className="font-semibold text-xl mt-4">Reduci tus costos</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -140,31 +144,33 @@ export default () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full ">
-              <img src="../Assets/polh.png" />
-              <p className="font-semibold text-center text-xl">Pölh api</p>
+              <img src={require("../Assets/api_polh.svg")} style={{height: '200px'}}/>
+              <p className="font-semibold text-center text-xl mt-4">Pölh api</p>
               <p className="mt-4">
                 Integra Pölh a tu negocio con nuestra API Ya sea una plataforma , sitio web o App.
                 Pölh es facilmente integrable gracias a nuestra API tan facil como:
               </p>
-              <p className="mt-4 bg-gray-200 text-gray-600 text-center"> npm install</p>
+              <p className="mt-4 bg-gray-200 text-gray-600 text-center"> npm install polh </p>
               <h3 className="mt-2 text-center">o hace una request a nuesta api</h3>
               <p className="mt-4 bg-gray-200 text-gray-600 text-center"> https://api.polh.io/</p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full ">
-              <p className="font-semibold text-xl text-center">Visualizer</p>
+            <img src={require("../Assets/visualizer.svg")} style={{height: '200px'}}/>
+              <p className="font-semibold text-xl text-center mt-4">Visualizer</p>
               <p className="mt-4">
                 Visualiza documentos atravez de nuestra web. Accedé a ellos mediante su HASH y tener
                 acceso al mismo y a sus archivos adjuntos. Para hacer una prueba copia el HASH que
                 esta abajo y pegalo en el visualizador.
               </p>
-              <Button className="colors.primary.darker">Ir a al Vizualizer</Button>
+              <Button className="colors.primary.darker mt-6">Ir a al Vizualizer</Button>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full ">
-              <p className="font-semibold text-xl text-center">Manager</p>
+            <img src={require("../Assets/manager.png")} style={{height: '200px'}}/>
+              <p className="font-semibold text-xl text-center mt-4">Manager</p>
               <p className="mt-4">
                 Administra y tene control de los documentos de tu organizacion con nosotros.
               </p>
@@ -172,11 +178,13 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full ">
-              <p className="font-semibold text-xl text-center">Recetas Digitales</p>
+            <img src={require("../Assets/contract.svg")} style={{height: '200px'}}/>
+              <p className="font-semibold text-xl text-center mt-4">Recetas Digitales</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
               </p>
+              <Button className="colors.primary.darker mt-6">Ver</Button>
             </Card>
           </div>
         </div>
