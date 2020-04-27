@@ -27,7 +27,6 @@ const Header = () => (
       </div>
       <div className="hidden md:block">
         <Button className="text-sm">
-          {' '}
           <a style={{ color: 'black' }} href="https://recetas.polh.io/" target="_blank">
             Ir a recetas
           </a>

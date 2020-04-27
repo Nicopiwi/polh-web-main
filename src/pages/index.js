@@ -52,7 +52,7 @@ export default () => (
             <p className="mt-4 text-gray-600"></p>
           </div>
           <div className="order-first sm:order-last lg:w-1/2">
-            <img src={require('../Assets/pohl.svg')} />
+            <img src={require('../Assets/polh.svg')} />
           </div>
         </div>
       </section>
@@ -65,7 +65,7 @@ export default () => (
           <h2 className="text-3xl lg:text-5xl font-semibold">¿Porque utilizar blockchain?</h2>
           <p className="mt-4 text-gray-600 text-center">
             {' '}
-            Si estás un poco perdido, hacé click{' '}
+            Si estás un poco perdido con que es blockchain, hacé click{' '}
             <a
               style={{ color: 'black' }}
               href="https://www.youtube.com/watch?v=70asKwy15Ds"
