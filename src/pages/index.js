@@ -85,7 +85,7 @@ export default () => (
                     paddingBottom: '50px'
                   }}
                 >
-                  <img src={require('../Assets/transparencia.svg')} style={{ height: '90px' }} />
+                  <img src={require('../Assets/transparencia.svg')} style={{ height: '80px' }} />
                 </div>
                 <p className="font-semibold text-xl mt-4">Es transparente</p>
                 <p className="mt-4">
@@ -106,7 +106,7 @@ export default () => (
                     paddingBottom: '50px'
                   }}
                 >
-                  <img src={require('../Assets/security.svg')} style={{ height: '90px' }} />
+                  <img src={require('../Assets/security.svg')} style={{ height: '80px' }} />
                 </div>
                 <p className="font-semibold text-xl mt-4">Mayor seguridad</p>
                 <p className="mt-4">
@@ -128,7 +128,7 @@ export default () => (
                     paddingBottom: '50px'
                   }}
                 >
-                  <img src={require('../Assets/eficiencia.svg')} style={{ height: '90px' }} />
+                  <img src={require('../Assets/eficiencia.svg')} style={{ height: '80px' }} />
                 </div>
                 <p className="font-semibold text-xl mt-4">Aumenta la eficiencia</p>
                 <p className="mt-4">
@@ -149,7 +149,7 @@ export default () => (
                     paddingBottom: '50px'
                   }}
                 >
-                  <img src={require('../Assets/accesibilidad.svg')} style={{ height: '90px' }} />
+                  <img src={require('../Assets/accesibilidad.svg')} style={{ height: '80px' }} />
                 </div>
                 <p className="font-semibold text-xl mt-4">Reducí tus costos</p>
                 <p className="mt-4">
@@ -224,7 +224,7 @@ export default () => (
                     paddingBottom: '50px'
                   }}
                 >
-                  <img src={require('../Assets/api_polh.svg')} style={{ height: '90px' }} />
+                  <img src={require('../Assets/api_polh.svg')} style={{ height: '80px' }} />
                 </div>
                 <p className="font-semibold text-center text-xl mt-4">Pölh api</p>
                 <p className="mt-4">
@@ -246,7 +246,7 @@ export default () => (
                     paddingBottom: '50px'
                   }}
                 >
-                  <img src={require('../Assets/visualizer.svg')} style={{ height: '90px' }} />
+                  <img src={require('../Assets/visualizer.svg')} style={{ height: '80px' }} />
                 </div>
                 <p className="font-semibold text-xl text-center mt-4">Visualizer</p>
                 <p className="mt-4">
@@ -270,7 +270,7 @@ export default () => (
             </div>
             <div className="flex-1 px-3">
               <Card className="mb-8 h-full ">
-                <img src={require('../Assets/manager.png')} style={{ height: '90px' }} />
+                <img src={require('../Assets/manager.png')} style={{ height: '80px' }} />
                 <p className="font-semibold text-xl text-center mt-4">Manager</p>
                 <p className="mt-4">
                   Administrá y tené control de los documentos de tu organización con nosotros.
@@ -287,7 +287,7 @@ export default () => (
                     paddingBottom: '50px'
                   }}
                 >
-                  <img src={require('../Assets/contract.svg')} style={{ height: '90px' }} />
+                  <img src={require('../Assets/contract.svg')} style={{ height: '80px' }} />
                 </div>
                 <p className="font-semibold text-xl text-center mt-4">Recetas Digitales</p>
                 <p className="mt-4">
