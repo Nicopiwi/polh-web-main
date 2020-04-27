@@ -177,8 +177,8 @@ export default () => (
               Administracion y firma de documentos
             </h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
-              Como por ejemplo contratos, certificados, documentos de su propiedad intelectual, etc.
-              Tenga y firme sus documentos mas importantes de una manera digital y segura.
+              Contratos, certificados, documentos de su propiedad intelectual, etc. Tenga y firme
+              sus documentos mas importantes de una manera digital y segura.
             </p>
           </div>
         }
