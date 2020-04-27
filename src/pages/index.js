@@ -19,7 +19,7 @@ export default () => (
     <section className="pt-20 md:pt-40" style={{backgroundImage: `url(${Background})`, backgroundSize:'cover', backgroundRepeat:'no-repeat', scrollSnapAlign:'start'}}>
       <div className="container mx-auto px-8 flex flex-col sm:flex-row md:flex-row">
         <div className="text-center lg:text-left lg:w-1/2 order-last sm:order-first md:order-first">
-          <h1 className="text-4xl text-white lg:text-5xl xl:text-6xl font-bold leading-none">
+          <h1 className="text-4xl sm:mt-3 text-white lg:text-5xl xl:text-6xl font-bold leading-none">
             Blockchain como servicio
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light text-white">
@@ -41,7 +41,7 @@ export default () => (
           <p className="mt-4 text-gray-600"></p>
         </div>
         <div className="order-first sm:order-last lg:w-1/2">
-          <HeroImage />
+          <img src={require('../Assets/pohl.svg')}/>
         </div>
       </div>
     </section>
@@ -51,7 +51,9 @@ export default () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full">
+            <div style={{display:'flex', alignItems:'center', justifyContent:'center', paddingBottom:'50px'}}>
             <img src={require("../Assets/transparencia.svg")} style={{height: '200px'}}/>
+            </div>
               <p className="font-semibold text-xl mt-4">Es transparente</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
@@ -61,7 +63,9 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full">
+            <div style={{display:'flex', alignItems:'center', justifyContent:'center', paddingBottom:'50px'}}>
             <img src={require("../Assets/security.svg")} style={{height: '200px'}}/>
+            </div>
               <p className="font-semibold text-xl mt-4">Mayor seguridad</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
@@ -71,7 +75,9 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full">
+            <div style={{display:'flex', alignItems:'center', justifyContent:'center', paddingBottom:'50px'}}>
             <img src={require("../Assets/eficiencia.svg")} style={{height: '200px'}}/>
+            </div>
               <p className="font-semibold text-xl mt-4">Aumenta la eficiencia</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
@@ -81,7 +87,9 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full">
+            <div style={{display:'flex', alignItems:'center', justifyContent:'center', paddingBottom:'50px'}}>
             <img src={require("../Assets/accesibilidad.svg")} style={{height: '200px'}}/>
+            </div>
               <p className="font-semibold text-xl mt-4">Reduci tus costos</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
@@ -111,7 +119,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={require('../Assets/primeraVertical.svg')} />}
     />
     <SplitSection
       reverseOrder
@@ -124,7 +132,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<Realstate />}
+      secondarySlot={<img src={require('../Assets/segundaVertical.svg')} />}
     />
     <SplitSection
       primarySlot={
@@ -136,7 +144,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<CreditCard />}
+      secondarySlot={<img src={require('../Assets/terceraVertical.svg')} />}
     />
     <section style={{scrollSnapAlign:'start'}} id="stats" className="py-0 ">
       <div className="container mx-auto">
@@ -146,7 +154,9 @@ export default () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full ">
+            <div style={{display:'flex', alignItems:'center', justifyContent:'center', paddingBottom:'50px'}}>
               <img src={require("../Assets/api_polh.svg")} style={{height: '200px'}}/>
+              </div>
               <p className="font-semibold text-center text-xl mt-4">Pölh api</p>
               <p className="mt-4">
                 Integra Pölh a tu negocio con nuestra API Ya sea una plataforma , sitio web o App.
@@ -159,21 +169,27 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full ">
+            <div style={{display:'flex', alignItems:'center', justifyContent:'center', paddingBottom:'50px'}}>
             <img src={require("../Assets/visualizer.svg")} style={{height: '200px'}}/>
+            </div>
               <p className="font-semibold text-xl text-center mt-4">Visualizer</p>
               <p className="mt-4">
                 Visualiza documentos atravez de nuestra web. Accedé a ellos mediante su HASH y tener
                 acceso al mismo y a sus archivos adjuntos. Para hacer una prueba copia el HASH que
                 esta abajo y pegalo en el visualizador.
               </p>
+              <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
               <a style={{color:'black'}} href="https://visualizer.polh.io/" target="_blank">
-              <Button className="colors.primary.darker mt-6">Ir a al Vizualizer</Button>
+              <Button className="colors.primary.darker mt-6" style={{alignSelf:'center'}}>Ir a al Vizualizer</Button>
               </a>
+              </div>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full ">
-            <img src={require("../Assets/manager.png")} style={{height: '200px'}}/>
+            <div style={{display:'flex', alignItems:'center', justifyContent:'center', paddingBottom:'50px'}}>
+            <img src={require("../Assets/manager.png")} style={{height: '200px', alignSelf:'center'}}/>
+            </div>
               <p className="font-semibold text-xl text-center mt-4">Manager</p>
               <p className="mt-4">
                 Administra y tene control de los documentos de tu organizacion con nosotros.
@@ -182,15 +198,19 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8 h-full ">
+            <div style={{display:'flex', alignItems:'center', justifyContent:'center', paddingBottom:'50px'}}>
             <img src={require("../Assets/contract.svg")} style={{height: '200px'}}/>
+            </div>
               <p className="font-semibold text-xl text-center mt-4">Recetas Digitales</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
               </p>
+              <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
               <a style={{color:'black'}} href="https://recetas.polh.io/" target="_blank">
-              <Button className="colors.primary.darker mt-6">Ver</Button>
+              <Button className="colors.primary.darker mt-8">Ver</Button>
               </a>
+              </div>
             </Card>
           </div>
         </div>
