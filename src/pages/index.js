@@ -71,8 +71,10 @@ export default () => (
             </div>
               <p className="font-semibold text-xl mt-4">Es transparente</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+              Los historiales de transacciones se están volviendo más transparentes gracias a
+                  blockchain. Ya que la misma funciona como un registro descentralizado, todos los
+                  participantes de la red comparten la misma información en lugar de copias
+                  individuales. Además sólo se puede actualizar a través del consenso de
               </p>
             </Card>
           </div>
@@ -83,8 +85,11 @@ export default () => (
             </div>
               <p className="font-semibold text-xl mt-4">Mayor seguridad</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+              Las transacciones deben ser aprobadas antes de que sean registradas. Una vez esto,
+                  ésta se encripta y se une a la transacción pasada. Esto, sumado al que la
+                  información esta descentralizada, hace mas difícil para que un hacker comprometa
+                  la información. Áreas como finanzas, salud o gobierno pueden beneficiarse de la
+                  tecnologia
               </p>
             </Card>
           </div>
@@ -95,8 +100,9 @@ export default () => (
             </div>
               <p className="font-semibold text-xl mt-4">Aumenta la eficiencia</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                  Cuando usás procesos tradicionales, sobre todo los que dependen del papel.
+                  Cualquier acción consume mucho tiempo y es propensa al error humano. Además requieren de un tercero. Al automatizar con blockchain removes intermediarios y
+                  ganas tiempo
               </p>
             </Card>
           </div>
@@ -105,10 +111,12 @@ export default () => (
             <div style={{display:'flex', alignItems:'center', justifyContent:'center', paddingBottom:'50px'}}>
             <img src={require("../Assets/accesibilidad.svg")} style={{height: '200px'}}/>
             </div>
-              <p className="font-semibold text-xl mt-4">Reduci tus costos</p>
+              <p className="font-semibold text-xl mt-4">Reducí tus costos</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+              Para todos las organizaciones , reducir costos es una prioridad. Con blockchain no
+                  necesitas intermediarios que garantizen algo porque ya que no necesitar depositar
+                  confianza en ellos , solo necesitas confiar en la blockchain. Ademas ahorras
+                  tiempo en revisar documentación para completar una operación
               </p>
             </Card>
           </div>
