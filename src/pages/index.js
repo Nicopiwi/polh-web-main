@@ -250,7 +250,7 @@ export default () => (
                 </div>
                 <p className="font-semibold text-xl text-center mt-4">Visualizer</p>
                 <p className="mt-4">
-                  Visualiza documentos atravez de nuestra web. Accedé a ellos mediante su HASH y
+                  Visualiza documentos a través de nuestra web. Accedé a ellos mediante su HASH y
                   tener acceso al mismo y a sus archivos adjuntos.
                 </p>
                 <p className="mt-4 bg-gray-200 text-gray-600 text-center"></p>
