@@ -13,9 +13,10 @@ import CreditCard from '../svg/CreditCard';
 import Realstate from '../svg/Realstate';
 import polhapi from '../svg/polhapi';
 import Background from '../Assets/backgroundFirst.svg';
+
 export default () => (
-  <Layout>
-    <div style={{ scrollSnapType: 'y mandatory' }}>
+  <Layout style={{width:'100vw'}}>
+    <div style={{ scrollSnapType: 'y mandatory', width:'100vw'}}>
       <section
         className="pt-20 md:pt-40"
         style={{

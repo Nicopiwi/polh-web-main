@@ -3,6 +3,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
 import LogoDetail from '../../svg/LogoDetail';
+import '../../css/ownStyles.css'
 const Header = () => (
   <header className="sticky top-0 bg-primary-darker shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto  px-8">
@@ -12,16 +13,16 @@ const Header = () => (
         </div>
       </div>
       <div className="flex mt-4 sm:mt-0 mb-4">
-        <AnchorLink className="px-4" href="#features">
+        <AnchorLink className="px-4 headerButton hover:text-white" href="#features">
           Beneficios
         </AnchorLink>
-        <AnchorLink className="px-4" href="#services">
+        <AnchorLink className="px-4 headerButton hover:text-white" href="#services">
           Verticales
         </AnchorLink>
-        <AnchorLink className="px-4" href="#stats">
+        <AnchorLink className="px-4 headerButton hover:text-white" href="#stats">
           Productos
         </AnchorLink>
-        <AnchorLink className="px-4" href="#testimonials">
+        <AnchorLink className="px-4 headerButton hover:text-white" href="#testimonials">
           Contacto
         </AnchorLink>
       </div>

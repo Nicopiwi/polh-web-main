@@ -1,0 +1,11 @@
+@media (max-width: 450px) {
+    .headerButton{
+        padding-right:0.5rem!important;
+        padding-left:0rem!important;
+        font-size:0.9rem;
+    }
+}
+
+.headerButton:hover{
+    color:'#fff'
+}
