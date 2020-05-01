@@ -32,8 +32,8 @@ export default () => (
               Blockchain como servicio
             </h1>
             <p className="text-xl lg:text-2xl mt-6 font-light text-white">
-              Ayudamos a las empresas a adoptar las ultimas tecnologias para que saquen el maximo
-              maximo provecho de estas
+              Ayudamos a las empresas a adoptar las ultimas tecnologias para que saquen el
+              máximo provecho de estas
             </p>
             <p className="mt-4  text-gray-600 ">
               Somos un grupo de personas que cree en la implementacion de las ultimas innovaciones
